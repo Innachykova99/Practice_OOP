@@ -1,7 +1,4 @@
-﻿using System;
-using System.Security.Cryptography.X509Certificates;
-using System.Xml.Linq;
-using OOP_PracticeTask.Entities;
+﻿using OOP_PracticeTask.Entities;
 
 namespace OOP_PracticeTask
 {
