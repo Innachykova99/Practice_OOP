@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace OOP_PracticeTask.Entities
+﻿namespace OOP_PracticeTask.Entities
 {
     internal class Manager : Employee
     {
@@ -18,18 +12,13 @@ namespace OOP_PracticeTask.Entities
         public override void SetBonus(decimal bonus)
         {
             if (quantity > 100)
-            {
                 this.bonus = bonus + 500;
-            }
+            
             else if (quantity > 150)
-            {
                 this.bonus = bonus + 1000;
-            }
+
             else
-            {
                 this.bonus = bonus;
-            }
         }
     }
-
 }

@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-
-namespace OOP_PracticeTask.Entities
+﻿namespace OOP_PracticeTask.Entities
 {
     internal class Employee
     {
@@ -28,7 +21,7 @@ namespace OOP_PracticeTask.Entities
 
         public virtual void SetBonus(decimal bonus)
         {
-            this.bonus = bonus;
+        this.bonus = bonus;
         }
 
         public decimal ToPay()
@@ -37,4 +30,3 @@ namespace OOP_PracticeTask.Entities
         }
     }
 }
-

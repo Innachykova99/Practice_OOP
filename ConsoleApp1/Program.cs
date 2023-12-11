@@ -30,6 +30,3 @@ namespace OOP_PracticeTask
         }
     }
 }
-
-
-
